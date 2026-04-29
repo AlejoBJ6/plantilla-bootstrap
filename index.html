@@ -75,26 +75,89 @@
         </div>
       </section>
       <section class="p-4 bg-dark text-white rounded shadow">
-  <h2 class="mb-4">1. Estilos de Texto y Tipografía</h2>
-  
-  <p>Los títulos pueden tener una clase especial llamada <code class="text-info">display</code></p>
-  
-  <p>Recuerda que puedes usar <span class="badge rounded-pill bg-info text-dark">flexbox</span> para trabajar...</p>
+        <h2 class="mb-4">1. Estilos de Texto y Tipografía</h2>
 
-  <h1 class="display-1">Display 1</h1>
-  <h2 class="display-6">Display 6</h2>
-  
-  <p class="text-primary text-uppercase fw-bold">Texto mayúsculas azul</p>
-  <p class="fst-italic text-decoration-line-through">Texto itálico tachado</p>
+        <p>
+          Los títulos pueden tener una clase especial llamada
+          <code class="text-info">display</code>
+        </p>
 
-  <div class="bg-secondary bg-opacity-10 p-3 rounded mt-3">
-    <p class="text-start">Alineado a la izquierda</p>
-    <p class="text-center">Alineado al centro</p>
-    <p class="text-end">Alineado a la derecha</p>
-    <p class="fw-bold mt-4">Texto en negrita (Bold)</p>
-    <p class="fw-light">Texto ligero (Light)</p>
-  </div>
-</section>
+        <p>
+          Recuerda que puedes usar
+          <span class="badge rounded-pill bg-info text-dark">flexbox</span> para
+          trabajar...
+        </p>
+
+        <h1 class="display-1">Display 1</h1>
+        <h2 class="display-6">Display 6</h2>
+
+        <p class="text-primary text-uppercase fw-bold">Texto mayúsculas azul</p>
+        <p class="fst-italic text-decoration-line-through">
+          Texto itálico tachado
+        </p>
+
+        <div class="bg-secondary bg-opacity-10 p-3 rounded mt-3">
+          <p class="text-start">Alineado a la izquierda</p>
+          <p class="text-center">Alineado al centro</p>
+          <p class="text-end">Alineado a la derecha</p>
+          <p class="fw-bold mt-4">Texto en negrita (Bold)</p>
+          <p class="fw-light">Texto ligero (Light)</p>
+        </div>
+        <h2 class="mb-4 mt-5">
+          2. Utilidades de CSS (Bordes, Sombras y Espacios)
+        </h2>
+
+        <div class="col-12">
+          <p class="text-white fs-5 fw-bold mb-3">Bordes y Sombras</p>
+
+          <div class="bg-secondary bg-opacity-10 p-5 rounded-2 shadow-sm">
+            <div class="vstack gap-4">
+              <div class="d-flex justify-content-start">
+                <div
+                  class="bg-dark text-white p-4 border border-primary border-2 shadow-sm rounded-2"
+                  style="
+                    width: 220px;
+                    height: 110px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  Sombra Pequeña
+                </div>
+              </div>
+
+              <div class="d-flex align-items-center gap-3">
+                <div
+                  class="bg-dark text-white p-4 border-end border-bottom border-success border-2 shadow rounded-2"
+                  style="
+                    width: 190px;
+                    height: 160px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  Sombra Media
+                </div>
+
+                <div
+                  class="bg-dark text-white shadow-lg rounded-circle d-flex align-items-center justify-content-center"
+                  style="
+                    width: 140px;
+                    height: 140px;
+                    text-align: center;
+                    flex-shrink: 0;
+                  "
+                >
+                  Sombra <br />
+                  Grande
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="text-center bg-dark-subtle py-4">
       &copy;Todos los derechos reservados 2026.
