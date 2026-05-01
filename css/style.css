@@ -16,4 +16,9 @@ main {
 
 .flex-2 {
   flex: 2;
-}
+}
+
+.feedback-box {
+  background-color: #062a2e;
+}
+
